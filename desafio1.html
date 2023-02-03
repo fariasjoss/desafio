@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio Uno</title>
+  
+  <link rel="stylesheet" href="stylej.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="main"  >
+  <header class="logo" >
+  <img src="Vector.png" alt="logo">
+  </header>
+
+  
+
+  <main  >
+    <section class="formbox">
+        <label for="input-texto"></label>
+        <input class="text-input" placeholder=" Ingrese el texto aqui" cols="30" rows="10" type="text" name="input-texto" id="input-texto">
+        <div class="footer">
+          <h4 > <img src= "excla.png">      Solo letras minúsculas, sin acento </h4>
+        </div>
+        <div class="botones">
+            <input class="btn1" type="button" value="Encriptar" id="btn-encriptar">
+            <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+        </div>
+    </section>
+  
+    <section class="msgbox">
+      <textarea class="text-input-salida" cols="20" rows="10" type="text" id="msg"></textarea>
+      <div>
+        <input class="btn3" type="button" value="Copiar" id="btn-copy">
+      </div>
+    </section>
+   </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
